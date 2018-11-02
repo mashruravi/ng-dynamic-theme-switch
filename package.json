@@ -8,8 +8,8 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "gh-build": "ng build --prod --base-href ng-dynamic-theme-switch",
-    "gh-publish": "npx ngh --dir=dist"
+    "gh-build": "ng build --prod --output-path dist/docs --base-href ng-dynamic-theme-switch",
+    "gh-publish": "npx ngh --dir=dist/docs"
   },
   "private": true,
   "dependencies": {
